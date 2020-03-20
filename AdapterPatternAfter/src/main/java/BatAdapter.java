@@ -1,8 +1,9 @@
-public class Bat_Adapter implements Bird {
+public class BatAdapter implements Bird {
 
     private Bat batsy;
 
-    public Bat_Adapter(Bat batsy) {
+    public BatAdapter(Bat batsy) {
+
         this.batsy = batsy;
     }
 

@@ -9,8 +9,7 @@ public class Bat {
     }
 
 
-    public String fly()
-    {
+    public String fly(){
         if (flyOk == 3){
             flyOk = 0;
             return "Fliying in the Darkness";
@@ -19,7 +18,9 @@ public class Bat {
         return "";
     }
 
-    public void stopSingign(){ flyOk ++;  }
+    public void stopSingign(){
+        flyOk ++;
+    }
 
     public void startToRun(){
         flyOk ++;
@@ -30,8 +31,7 @@ public class Bat {
     }
 
 
-    public String makeSound()
-    {
+    public String makeSound(){
         if (singOk == 3){
             singOk = 0;
             return "I am the Night";
@@ -41,11 +41,16 @@ public class Bat {
 
     }
 
-    public void stopFlying(){ singOk ++; }
+    public void stopFlying(){
+        singOk ++;
+    }
 
-    public void sitDown(){ singOk ++; }
+    public void sitDown(){
+        singOk ++;
+    }
 
-    public void warmVoice(){ singOk ++;
+    public void warmVoice(){
+        singOk ++;
     }
 
 }

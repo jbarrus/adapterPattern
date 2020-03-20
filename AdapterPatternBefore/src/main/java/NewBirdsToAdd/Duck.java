@@ -2,12 +2,10 @@ package NewBirdsToAdd;
 
 public class Duck {
 
-    public String fly()
-    {
+    public String fly() {
         return "Flying more or less";
     }
-    public String makeSound()
-    {
+    public String makeSound() {
         return "Cuack Cuack";
     }
 }

@@ -1,6 +1,6 @@
  # Adapter Pattern 
 
-Little example project in java to practise easily the implementation of Adapter pattern
+Little Kata in java to practise easily the implementation of Adapter pattern
 
 We have an application where you can create a song or a fly lesson from Birds Canary and Sparrow. 
 
@@ -72,5 +72,5 @@ public void make_ALL_birds_teach_Flylessons(){
 
 ## Authors
 
- **Laura Gonzalez** - *Initial work* - [Laura](https://github.com/Lauragonfer)
+ **Laura Gonzalez** - [Laura](https://github.com/Lauragonfer)
 

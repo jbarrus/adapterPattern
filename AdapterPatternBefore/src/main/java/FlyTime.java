@@ -4,7 +4,6 @@ public class FlyTime {
 
     String flyLesson;
 
-
     public FlyTime(String flyLesson) {
         this.flyLesson = flyLesson;
     }
@@ -24,6 +23,5 @@ public class FlyTime {
         }
         return flyLesson;
     }
-
 
 }

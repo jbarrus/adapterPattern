@@ -1,11 +1,11 @@
 public class Canary  implements Bird{
 
-    public String fly()
-    {
+    public String fly() {
+
         return "Flying like a canary";
     }
-    public String sing()
-    {
+    public String sing() {
+
         return "Melodious PIO PIO";
     }
 }

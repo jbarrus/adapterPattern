@@ -6,6 +6,7 @@ public class FlyTime {
 
 
     public FlyTime(String flyLesson) {
+
         this.flyLesson = flyLesson;
     }
 

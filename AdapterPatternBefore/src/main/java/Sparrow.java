@@ -1,11 +1,10 @@
 public class Sparrow  implements  Bird{
 
-    public String fly()
-    {
+    public String fly() {
         return "Flying to steal your Bread";
     }
-    public String sing()
-    {
+
+    public String sing() {
         return "Chirp Chirp";
     }
 }

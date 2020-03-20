@@ -4,7 +4,6 @@ public class Melody {
 
     String melody;
 
-
     public Melody(String melody) {
         this.melody = melody;
     }
@@ -25,5 +24,4 @@ public class Melody {
         }
         return melody;
     }
-
 }
