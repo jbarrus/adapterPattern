@@ -1,3 +1,5 @@
+package kata;
+
 public class Canary  implements Bird{
 
     public String fly() {

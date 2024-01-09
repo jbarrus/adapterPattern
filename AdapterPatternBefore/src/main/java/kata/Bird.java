@@ -1,3 +1,5 @@
+package kata;
+
 public interface Bird {
 
         public String fly ();

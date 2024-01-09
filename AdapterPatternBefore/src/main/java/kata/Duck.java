@@ -1,4 +1,4 @@
-package NewBirdsToAdd;
+package kata;
 
 public class Duck {
 

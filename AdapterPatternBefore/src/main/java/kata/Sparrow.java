@@ -1,3 +1,5 @@
+package kata;
+
 public class Sparrow  implements  Bird{
 
     public String fly() {

@@ -1,4 +1,7 @@
-import java.util.List;
+package kata;
+
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class Melody {
 
@@ -19,9 +22,7 @@ public class Melody {
 
     public String createSong (Bird[] singersBirds){
 
-        for (Bird bird: singersBirds) {
-            melody += bird.sing()+" ";
-        }
+        melody = Arrays.stream(singersBirds).map(Bird::sing).collect(Collectors.joining(" "));
         return melody;
     }
 }
